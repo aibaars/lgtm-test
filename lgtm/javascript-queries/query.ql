@@ -1,5 +1,5 @@
 /**
- * @i comment
+ * @id comment
  * @kind problem
  * @name Find comments
  * @description A trivial query that finds comments
