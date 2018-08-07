@@ -6,5 +6,10 @@
 */
 
 import javascript
+import lib
 
-from File f select f, "this is a comment"
+from File f, Comment c
+where c = getComment(f)
+select c, "this is a comment"
+
+
